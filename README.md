@@ -4,11 +4,13 @@ A mod for Vintage Story to allow stone versions of hammer, pickaxe, and log spli
 
 ## About
 
-I felt like smoking meat for long term food preservation was a must-have ability in the Stone Age, to help prepare for first winter.  I had found [Primitive Survival](https://mods.vintagestory.at/primitivesurvival), which includes a smoker, but I needed boards to make it.
+I felt like smoking meat for food preservation was a must-have ability in the Stone Age, to help prepare for first winter.  I had found [Primitive Survival](https://mods.vintagestory.at/primitivesurvival), which includes a smoker, but I needed boards to make it.
 
-In vanilla Vintage Story you can't make boards until you make a saw, and you can't make a saw until you enter the Copper Age.
+In vanilla Vintage Story you can't make boards until you make a saw, and you can't do that until you enter the Copper Age.
 
-So then I found this mod, [Primitive Tools](https://mods.vintagestory.at/primitivetools), made by Zinth and released on the Creative Commons license.  I took that mod, fixed the errors, stripped out the parts I didn't like and present it as modified here in this Github repo.
+So then I found this mod, [Primitive Tools](https://mods.vintagestory.at/primitivetools), made by Zinth and released on the Creative Commons license.  I took that mod, fixed the errors, stripped out the parts I didn't like and present it as modified here.
+
+This mod lets me use the log splitter to make boards (hammer + splitter + logs = boards).
 
 ## Changelog
 
