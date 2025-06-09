@@ -2,7 +2,7 @@
     "type": "content",
     "name": "Primitive Tools",
     "modid": "primitivetools",
-    "version": "1.4.2",
+    "version": "1.5.0",
     "description": "A mod for Vintage Story to allow stone versions of hammer, pickaxe, and log splitter.",
     "author": "Zinth, whipowill",
     "website": "https://github.com/whipowill/vs-mod-primitivetools",
