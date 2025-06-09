@@ -12,6 +12,10 @@ So then I found this mod, [Primitive Tools](https://mods.vintagestory.at/primiti
 
 This mod lets me use the log splitter to make boards (hammer + splitter + logs = boards).
 
+## Install
+
+Download this [zipfile](https://github.com/whipowill/vs-mod-primitivetools/archive/master.zip), rename it to ``PrimitiveTools.zip``, and put it in your game mods folder.
+
 ## Changelog
 
 ```
