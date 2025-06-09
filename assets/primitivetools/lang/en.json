@@ -1,0 +1,13 @@
+{
+    //item
+    "item-pickaxehead-*": "Stone Pickaxe Head",
+    "item-hammerhead-*": "Stone Hammer Head",
+    "item-splitterhead-*": "Stone Splitter Head",
+    "item-splitter-*": "Wood Splitter",
+    "item-stonehammer-*": "Stone Hammer",
+    "item-stonepickaxe-*": "Stone Pickaxe", 
+    "game:item-arrow-bone": "Bone arrow",
+    "item-bone-arrowhead": "Bone arrow head",
+    "item-twig": "Simple Twig",
+    "item-twig-bundle": "Bundle of Twigs"
+}

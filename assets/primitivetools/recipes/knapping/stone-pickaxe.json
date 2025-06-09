@@ -1,0 +1,18 @@
+{
+    "ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": ["chert", "granite", "andesite", "basalt", "obsidian", "flint", "peridotite"] },
+    "pattern": [[
+        "____##____",
+        "____##____",
+        "___####___",
+        "___####___",
+        "__######__",
+        "__######__",
+        "__######__",
+        "__######__",
+        "___####___", 
+        "____##____",  
+
+    ]],
+    "name": "Stone Pickaxe",
+    "output": {"type": "item", "code": "pickaxehead-{rock}", "quantity": 1}
+}

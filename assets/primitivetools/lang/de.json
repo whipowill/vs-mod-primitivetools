@@ -1,0 +1,13 @@
+{
+    //item
+    "item-pickaxehead-*": "Spitzhackenkopf aus Stein",
+    "item-hammerhead-*": "Hammerkopf aus Stein",
+    "item-splitterhead-*": "Holzspalterkopf aus Stein",
+    "item-splitter-*": "Holzspalter",
+    "item-stonehammer-*": "Steinhammer",
+    "item-stonepickaxe-*": "Spitzhacke aus Stein", 
+    "game:item-arrow-bone": "Knochenpfeil",
+    "item-bone-arrowhead": "Pfeilspitze aus Knochen",
+    "item-twig": "Einfacher Zweig",
+    "item-twig-bundle": "Reisigbündel"
+}

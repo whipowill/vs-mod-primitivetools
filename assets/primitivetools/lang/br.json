@@ -1,0 +1,13 @@
+{
+    //item
+    "item-pickaxehead-*": "Cabeça de Picareta de Pedra",
+    "item-hammerhead-*": "Cabeça de Martelo de Pedra",
+    "item-splitterhead-*": "Cabeça de Partidor de Pedra",
+    "item-splitter-*": "Partidor de Madeira",
+    "item-stonehammer-*": "Martelo de Pedra",
+    "item-stonepickaxe-*": "Picareta de Pedra", 
+    "game:item-arrow-bone": "Flecha de Osso",
+    "item-bone-arrowhead": "Ponta de Flecha de Osso",
+    "item-twig": "Galho simples",
+    "item-twig-bundle": "Amarrado de galhos"
+}

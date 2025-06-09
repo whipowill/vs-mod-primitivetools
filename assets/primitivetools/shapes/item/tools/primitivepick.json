@@ -1,0 +1,298 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"head": "game:block/stone/rock/andesite1",
+		"rope": "game:item/tool/material/string",
+		"handle": "game:block/wood/plainoak"
+	},
+	"elements": [
+		{
+			"name": "PrimPick_Handle",
+			"from": [ -2.0, 0.0, 7.25 ], 
+			"to": [ 13.0, 1.5, 8.75 ], 
+			"rotationOrigin": [ -2.0, 0.0, 7.0 ],
+			"faces": {
+				"north": { "texture": "#handle", "uv": [ 0.0, 0.0, 15.0, 1.5 ], "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#handle", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#handle", "uv": [ 0.0, 0.0, 15.0, 1.5 ], "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#handle", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
+				"up": { "texture": "#handle", "uv": [ 0.0, 0.0, 15.0, 1.5 ] },
+				"down": { "texture": "#handle", "uv": [ 0.0, 0.0, 15.0, 1.5 ] }
+			},
+			"children": [
+				{
+					"name": "PrimPick_StoneBase",
+					"from": [ 13.5, 0.0, -1.25 ], 
+					"to": [ 16.0, 1.5, 2.25 ], 
+					"rotationOrigin": [ 13.0, -5.0, -1.0 ],
+					"faces": {
+						"north": { "texture": "#head", "uv": [ 0.0, 0.0, 2.5, 1.5 ] },
+						"east": { "texture": "#head", "uv": [ 0.0, 0.0, 3.5, 1.5 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#head", "uv": [ 0.0, 0.0, 2.5, 1.5 ], "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#head", "uv": [ 0.0, 0.0, 3.5, 1.5 ], "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#head", "uv": [ 0.0, 0.0, 2.5, 3.5 ], "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#head", "uv": [ 0.0, 0.0, 2.5, 3.5 ], "windMode": [-1,-1,-1,-1] }
+					},
+					"children": [
+						{
+							"name": "PrimPick_Stone_01",
+							"from": [ 0.15, 0.25, -0.75 ], 
+							"to": [ 2.15, 1.25, 4.25 ], 
+							"rotationOrigin": [ 0.0, 1.0, -1.0 ],
+							"faces": {
+								"north": { "texture": "#head", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+								"east": { "texture": "#head", "uv": [ 0.0, 0.0, 5.0, 1.0 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#head", "uv": [ 0.0, 0.0, 2.0, 1.0 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#head", "uv": [ 0.0, 0.0, 5.0, 1.0 ], "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#head", "uv": [ 0.0, 0.0, 2.0, 5.0 ], "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#head", "uv": [ 0.0, 0.0, 2.0, 5.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "PrimPick_Stone_02",
+							"from": [ 0.3, 0.35, -1.5 ], 
+							"to": [ 1.8, 1.1, 4.5 ], 
+							"rotationOrigin": [ 0.0, 0.25, 0.0 ],
+							"faces": {
+								"north": { "texture": "#head", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+								"east": { "texture": "#head", "uv": [ 0.0, 0.0, 6.0, 0.5 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#head", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#head", "uv": [ 0.0, 0.0, 6.0, 0.5 ], "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#head", "uv": [ 0.0, 0.0, 1.5, 6.0 ], "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#head", "uv": [ 0.0, 0.0, 1.5, 6.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "PrimPick_stone_03",
+							"from": [ 0.45, 0.45, -2.0 ], 
+							"to": [ 1.45, 0.95, -1.0 ], 
+							"rotationOrigin": [ 1.0, 1.0, 5.0 ],
+							"faces": {
+								"north": { "texture": "#head", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+								"east": { "texture": "#head", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#head", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#head", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#head", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#head", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						}
+					]
+				},
+				{
+					"name": "PrimPick_Mount_00",
+					"from": [ 12.0, -0.5, 0.0 ], 
+					"to": [ 17.0, 0.0, 1.5 ], 
+					"rotationOrigin": [ 12.0, 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#handle", "uv": [ 0.0, 0.0, 5.0, 0.5 ] },
+						"east": { "texture": "#handle", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#handle", "uv": [ 0.0, 0.0, 5.0, 0.5 ], "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#handle", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#handle", "uv": [ 0.0, 0.0, 5.0, 1.5 ], "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#handle", "uv": [ 0.0, 0.0, 5.0, 1.5 ], "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "PrimPick_Mount_01",
+					"from": [ 12.0, 1.5, 0.0 ], 
+					"to": [ 17.0, 2.0, 1.5 ], 
+					"rotationOrigin": [ 12.0, 2.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#handle", "uv": [ 0.0, 0.0, 5.0, 0.5 ] },
+						"east": { "texture": "#handle", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+						"south": { "texture": "#handle", "uv": [ 0.0, 0.0, 5.0, 0.5 ] },
+						"west": { "texture": "#handle", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+						"up": { "texture": "#handle", "uv": [ 0.0, 0.0, 5.0, 1.5 ] },
+						"down": { "texture": "#handle", "uv": [ 0.0, 0.0, 5.0, 1.5 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "PrimPick_RopeLoop_001",
+			"from": [ 14.0, -0.75, 6.75 ], 
+			"to": [ 14.5, -0.25, 9.25 ], 
+			"rotationOrigin": [ 12.5, -1.0, 7.25 ],
+			"faces": {
+				"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.5 ], "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.5 ], "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "PrimPick_Rope_001",
+					"from": [ 0.0, 2.5, 0.0 ], 
+					"to": [ 0.5, 3.0, 2.5 ], 
+					"rotationOrigin": [ -2.0, 2.75, 0.5 ],
+					"faces": {
+						"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 2.5, 0.5 ] },
+						"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 2.5, 0.5 ] },
+						"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.5 ] },
+						"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.5 ] }
+					}
+				},
+				{
+					"name": "PrimPick_Rope_01",
+					"from": [ 0.0, 0.5, 0.0 ], 
+					"to": [ 0.5, 2.5, 0.5 ], 
+					"rotationOrigin": [ -2.0, 1.75, 0.5 ],
+					"faces": {
+						"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+						"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+						"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+						"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+						"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+					}
+				},
+				{
+					"name": "PrimPick_Rope_02",
+					"from": [ 0.0, 0.5, 2.0 ], 
+					"to": [ 0.5, 2.5, 2.5 ], 
+					"rotationOrigin": [ -2.0, 1.75, 2.5 ],
+					"faces": {
+						"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+						"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+						"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+						"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+						"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "PrimPick_RopeLoop_002",
+			"from": [ 11.0, -0.75, 6.75 ], 
+			"to": [ 11.5, -0.25, 9.25 ], 
+			"rotationOrigin": [ 7.5, -1.0, 7.25 ],
+			"faces": {
+				"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 2.5, 0.5 ] },
+				"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 2.5, 0.5 ] },
+				"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.5 ] },
+				"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.5 ] }
+			},
+			"children": [
+				{
+					"name": "PrimPick_Rope_15",
+					"from": [ 0.0, 2.5, 0.0 ], 
+					"to": [ 0.5, 3.0, 2.5 ], 
+					"rotationOrigin": [ -2.0, 2.75, 0.5 ],
+					"faces": {
+						"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 2.5, 0.5 ] },
+						"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 2.5, 0.5 ] },
+						"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.5 ] },
+						"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.5 ] }
+					}
+				},
+				{
+					"name": "PrimPick_Rope_16",
+					"from": [ 0.0, 0.5, 0.0 ], 
+					"to": [ 0.5, 2.5, 0.5 ], 
+					"rotationOrigin": [ -2.0, 1.75, 0.5 ],
+					"faces": {
+						"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+						"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+						"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+						"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+						"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+					}
+				},
+				{
+					"name": "PrimPick_Rope_17",
+					"from": [ 0.0, 0.5, 2.0 ], 
+					"to": [ 0.5, 2.5, 2.5 ], 
+					"rotationOrigin": [ -2.0, 1.75, 2.5 ],
+					"faces": {
+						"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+						"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+						"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+						"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+						"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "PrimPick_Ropecross_000",
+			"from": [ 12.55, 1.75, 8.7 ], 
+			"to": [ 13.05, 2.15, 11.95 ], 
+			"rotationOrigin": [ 11.0, 2.0, 9.25 ],
+			"rotationY": 67.5,
+			"faces": {
+				"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+				"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+				"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 3.0 ] },
+				"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 3.0 ] }
+			},
+			"children": [
+				{
+					"name": "PrimPick_Ropecross_001",
+					"from": [ 2.0, 0.05, 0.15 ], 
+					"to": [ 2.5, 0.45, 3.4 ], 
+					"rotationOrigin": [ 1.2, 1.25, 1.4 ],
+					"rotationY": -135.0,
+					"faces": {
+						"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 3.0 ] },
+						"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 3.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "PrimPick_Ropecross_18",
+			"from": [ 12.55, -0.65, 8.7 ], 
+			"to": [ 13.05, -0.25, 11.95 ], 
+			"rotationOrigin": [ 11.0, -1.0, 9.25 ],
+			"rotationY": 67.5,
+			"faces": {
+				"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+				"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+				"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 3.0 ] },
+				"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 3.0 ] }
+			},
+			"children": [
+				{
+					"name": "PrimPick_Ropecross_19",
+					"from": [ 2.0, 0.05, 0.15 ], 
+					"to": [ 2.5, 0.45, 3.4 ], 
+					"rotationOrigin": [ 1.2, 1.25, 1.4 ],
+					"rotationY": -135.0,
+					"faces": {
+						"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 3.0 ] },
+						"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 3.0 ] }
+					}
+				}
+			]
+		}
+	]}

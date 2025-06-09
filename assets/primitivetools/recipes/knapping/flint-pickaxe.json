@@ -1,0 +1,18 @@
+{
+    "ingredient": { "type": "item", "code": "game:flint" },
+    "pattern": [[
+        "____##____",
+        "____##____",
+        "___####___",
+        "___####___",
+        "__######__",
+        "__######__",
+        "__######__",
+        "__######__",
+        "___####___", 
+        "____##____",  
+
+    ]],
+    "name": "Flint Pickaxe",
+    "output": {"type": "item", "code": "pickaxehead-flint", "quantity": 1}
+}

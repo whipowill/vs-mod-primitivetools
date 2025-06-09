@@ -1,0 +1,18 @@
+{
+    "ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": ["chert", "granite", "andesite", "basalt", "obsidian", "flint", "peridotite"] },
+    "pattern": [[
+        "##########",
+        "##########",
+        "##########",
+        "##########",
+        "##########",
+        "##########",
+        "_########_",
+        "__######__",
+        "___####___", 
+        "____##____",  
+
+    ]],
+    "name": "Stone Splitter",
+    "output": {"type": "item", "code": "splitterhead-{rock}", "quantity": 1}
+}

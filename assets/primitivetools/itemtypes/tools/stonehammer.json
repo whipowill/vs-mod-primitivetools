@@ -1,0 +1,85 @@
+{
+    "code": "stonehammer",
+	"variantgroups": [{ "code": "stone", "states": ["andesite", "basalt", "chert", "granite", "peridotite", "flint", "obsidian"]}],
+    "storageFlags": 5,
+	"behaviors": [{ "name": "GroundStorable", "properties": { "layout": "SingleCenter", "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 }}}],
+    "attributes": {
+        "handbook": {"groupBy": ["stonehammer-*"]},
+        "rackable": true,
+		"groundStorageTransform": {
+      		"rotation": { "x": 3, "y": 45, "z": 0 },
+      		"origin": { "x": 0.5, "y": 0, "z": 0.5 }
+		},
+		"toolrackTransform": {
+			"rotation": { "y": 1, "z": -1 },
+			"translation": { "x": 0, "y": 0.6 },
+			"scale": 1.25
+		},
+        "slotRefillIdentifier": "hammer"
+    },
+
+    
+
+    "creativeinventory": {"general": ["*"], "items": ["*"], "tools": ["*"]},
+
+    "tool": "hammer",
+    "damagedby": ["blockbreaking", "attacking"],
+    "shape": {"base": "item/tools/primitivehammer"},
+    "heldTpHitAnimation": "smithing",
+    "textures": {
+        "rope": {"base": "game:item/tool/material/string"},
+        "handle": {"base": "game:item/tool/material/handle"}
+    },
+    "texturesByType":{
+        "*-flint": {"head" : {"base": "game:block/stone/flint" }},
+        "*-obsidian": {"head" : {"base": "game:block/stone/rock/obsidian1" }},
+        "*": { "head": {"base": "game:block/stone/polishedrock/{stone}"}}
+    },
+	"tooltier": 2,
+    "durability": 15,
+	"attackpower": 1,
+	"miningspeed": {
+		"soil": 0,
+		"sand": 0,
+		"gravel": 0,
+		"stone": 1,
+		"metal": 0,
+		"wood": 0,
+		"leaves": 0,
+		"snow": 0, 
+		"ice": 4,
+		"mantle": 0,
+		"plant": 0,
+		"glass": 4,
+		"ceramic": 4,
+		"cloth": 0,
+		"other": 0
+	},
+
+
+	guiTransform: {
+		translation: { x: 6, y: -4, z: 0 },
+		rotation: { x: -89, y: 47, z: 33 },
+		origin: { x: 0.61, y: 0, z: 0.47 },
+		scale: 1.7
+	},
+	fpHandTransform: {
+		translation: { x: -0.4, y: -0.4, z: 0.6 },
+		rotation: { x: -35, y: 0, z: 85 },
+		origin: { x: 0.1, y: 0.5, z: 0.5 },
+		scale: 2.5
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 3.4
+	},
+	tpHandTransform: {
+		translation: { x: -0.87, y: -0.01, z: -0.65 },
+		rotation: { x: 81, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.8
+	}
+
+}

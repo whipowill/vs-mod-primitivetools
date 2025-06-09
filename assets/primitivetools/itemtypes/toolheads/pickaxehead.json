@@ -1,0 +1,68 @@
+{
+    "code": "pickaxehead",
+    "variantgroups": [{ "code": "stone", "states": ["andesite", "basalt", "chert", "granite", "peridotite", "flint", "obsidian"]}],
+
+	"behaviors": [{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 }}}],
+
+	"attributes": {
+        "handbook": {"groupBy": ["pickaxehead-*"]},
+        "rackable": false,
+		"groundStorageTransform": {
+			"translation": {"x": -0.11, "y": 0, "z": 0.11},
+			"rotation": {"x": 0, "y": 45, "z": 0},
+			"origin": {"x": 0.5, "y": 0, "z": 0.5},
+			"scale": 0.85
+		  }
+    },
+
+    "maxstackstize": 4,
+    "shape": {"base": "item/tools/primitivepick"},
+    "texturesByType": {
+        "pickaxehead-flint": {
+			"head" : {"base": "game:block/stone/flint" },
+			"rope": {"base": "game:block/transparent"},
+			"handle": {"base": "game:block/transparent"}
+		},
+        "pickaxehead-obsidian": {
+			"head" : {"base": "game:block/stone/rock/obsidian1" },
+			"rope": {"base": "game:block/transparent"},
+			"handle": {"base": "game:block/transparent"}
+		},
+		"pickaxehead-*": {
+			"head" : {"base": "game:block/stone/polishedrock/{stone}" },
+			"rope": {"base": "game:block/transparent"},
+			"handle": {"base": "game:block/transparent"}
+		}
+    },
+    "creativeinventory": {"general": ["*"], "items": ["*"]},
+
+    "fpHandTransform": {
+		"translation": { "x": 0.2, "y": -0.2, "z": 0 },
+		"rotation": { "x": 15, "y": 15, "z": 90 },
+		"scale": 2.5
+	},
+	"guiTransform": {
+		"translation": { "x": 5, "y": -5, "z": 0 },
+		"rotation": { "x": -89, "y": 47, "z": 33 },
+		"origin": { "x": 1, "y": 0.2, "z": 0.45 },
+		"scale": 3.54
+	},
+	"fpHandTransform": {
+		"translation": { "x": -0.5, "y": -0.2, "z": 0 },
+		"rotation": { "x": 26, "y": 15, "z": 90 },
+		"origin": { "x": 1, "y": 0.4, "z": 0.5 },
+		"scale": 3.4
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 1, "y": 0, "z": 0.5 },
+		"scale": 4.17
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.47, "y": -0.01, "z": -0.56 },
+		"rotation": { "x": -95, "y": 66, "z": 0 },
+		"origin": { "x": 1, "y": 0, "z": 0.5 },
+		"scale": 0.8
+	}
+}
